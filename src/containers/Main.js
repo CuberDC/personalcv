@@ -4,7 +4,7 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
+// import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import CompanyProject from "./StartupProjects/CompanyProject";
 import ProjectDetails from "./projectDetails/ProjectDetails";
@@ -65,7 +65,7 @@ const Main = () => {
             <StackProgress />
             <Education />
             <WorkExperience />
-            <Projects />
+            {/* <Projects /> */}
             <CompanyProject />
             <StartupProject />
             <ProjectDetails />
