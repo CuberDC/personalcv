@@ -1,0 +1,110 @@
+.language-toggle {
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  
+  .toggle-button {
+    background: transparent;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .lang-option {
+      transition: all 0.3s ease;
+      font-size: 12px;
+      color: #fff;
+      
+      &.active {
+        color: #55a3ff;
+        font-weight: 900;
+      }
+      
+      &:not(.active) {
+        opacity: 0.7;
+        
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    
+    .separator {
+      margin: 0 6px;
+      color: #ccc;
+      font-weight: 300;
+    }
+  }
+}
+
+// Dark mode styles
+.dark-mode .language-toggle {
+  .toggle-button {
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .lang-option {
+      color: #fff;
+      
+      &.active {
+        color: #4dabf7;
+      }
+      
+      &:not(.active) {
+        color: #ccc;
+      }
+    }
+    
+    .separator {
+      color: #666;
+    }
+  }
+}
+
+// Light mode styles
+.header:not(.dark-menu) .language-toggle {
+  .toggle-button {
+    .lang-option {
+      color: #333;
+      
+      &.active {
+        color: #55a3ff;
+      }
+      
+      &:not(.active) {
+        color: #666;
+      }
+    }
+    
+    .separator {
+      color: #999;
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .language-toggle {
+    .toggle-button {
+      padding: 3px 8px;
+      font-size: 11px;
+      
+      .lang-option {
+        font-size: 11px;
+      }
+      
+      .separator {
+        margin: 0 4px;
+      }
+    }
+  }
+} 
