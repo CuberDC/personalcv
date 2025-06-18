@@ -62,17 +62,17 @@ export const skills = {
     emoji("⚡ Enterprise architecture & data lake design")
   ],
   softwareSkills: [
-    { skillName: "Axure", fontAwesomeClassname: "fas fa-pencil-ruler" },
-    { skillName: "Jira", fontAwesomeClassname: "fab fa-jira" },
-    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar" },
-    { skillName: "OpenAI", fontAwesomeClassname: "fas fa-robot" },
+    { skillName: "Axure", fontAwesomeClassname: "fas fa-drafting-compass" },
+    // { skillName: "Jira", fontAwesomeClassname: "fab fa-atlassian" },
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "Cursor", fontAwesomeClassname: "fas fa-code" },
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "LangChain", fontAwesomeClassname: "fas fa-link" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "ChatGPT", fontAwesomeClassname: "fas fa-comments" },
-    { skillName: "Notion", fontAwesomeClassname: "fas fa-sticky-note" },
-    { skillName: "Slack", fontAwesomeClassname: "fab fa-slack" }
+    { skillName: "ChatGPT", fontAwesomeClassname: "fas fa-brain" },
+    // { skillName: "LangChain", fontAwesomeClassname: "fas fa-link" },
+    // { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+    // { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    // { skillName: "Notion", fontAwesomeClassname: "fas fa-sticky-note" },
+    // { skillName: "Slack", fontAwesomeClassname: "fab fa-slack" }
   ],
   display: true // Set false to hide this section, defaults to true
 };
