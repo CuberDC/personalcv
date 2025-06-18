@@ -340,7 +340,8 @@ const contactInfo = {
   title: "contact.title",
   subtitle: "contact.subtitle",
   number: "+60-0178299352", // 替换为实际电话
-  email_address: "dingchaobazinga@gmail.com" // 替换为实际邮箱
+  email_address: "dingchaobazinga@gmail.com", // 替换为实际邮箱
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Twitter Section | Twitter部分
